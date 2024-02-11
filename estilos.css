@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}/* Estilos para todos los elementos HTML: elimina el relleno y el margen */
+#header{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}/* Estilos para la sección de navegación: centrado horizontal, ancho fijo, fuente Arial */
+body{
+    background-image: url('croquistec.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}/* Estilos para el cuerpo del documento: imagen de fondo con ajustes de posición y tamaño */
+ul, ol{
+    list-style: none;
+}/* Estilos para listas no ordenadas y ordenadas: elimina las viñetas */
+.menu li a{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}/* Estilos para los enlaces dentro de los elementos de lista del menú: color de fondo, color de texto, etc. */
+.menu li a:hover{
+    background-color:red;
+}/* Estilos para los enlaces cuando se pasa el cursor sobre ellos: cambio de color de fondo */
+.menu > li{
+    float: left;
+}/* Estilos para los elementos de lista principales del menú: flotan a la izquierda */
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}/* Estilos para los submenús desplegables: ocultar inicialmente y configuración de posición */
+.menu li:hover>ul{
+    display:block;
+}/* Estilos para mostrar los submenús cuando se pasa el cursor sobre los elementos de lista principales */
+.menu li ul li {
+    position: relative;
+}/* Estilos para los elementos de lista del submenú: configuración de posición relativa */
+.menu li ul li ul{
+    right: -140px;
+    top: 0px;
+}/* Estilos para los submenús de segundo nivel: ajuste de posición */
