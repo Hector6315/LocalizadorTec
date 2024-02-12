@@ -4,8 +4,8 @@
 }/* Estilos para todos los elementos HTML: elimina el relleno y el margen */
 #header{
     margin: auto;
-    width: 500px;
-    font-family:TimesNewRoman, Times, serif;
+    width: 500px; 
+    font-family: "Times New Roman", Times, serif;
 }/* Estilos para la sección de navegación: centrado horizontal, ancho fijo, fuente Arial */
 body{
     background-image: url('croquistec.jpeg');
