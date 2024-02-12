@@ -17,14 +17,14 @@ ul, ol{
     list-style: none;
 }/* Estilos para listas no ordenadas y ordenadas: elimina las viñetas */
 .menu li a{
-    background-color: rgb(44, 42, 165);
+    background-color: brown;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
 }/* Estilos para los enlaces dentro de los elementos de lista del menú: color de fondo, color de texto, etc. */
 .menu li a:hover{
-    background-color:rgb(17, 0, 255);
+    background-color:red;
 }/* Estilos para los enlaces cuando se pasa el cursor sobre ellos: cambio de color de fondo */
 .menu > li{
     float: left;
